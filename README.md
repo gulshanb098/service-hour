@@ -58,7 +58,7 @@ service-hour/
 **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-app.git
+   git clone https://github.com/gulshanb098/service-hour.git
    ```
 ### Backend Setup
 1. **Set up the backend:**
