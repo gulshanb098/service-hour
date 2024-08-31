@@ -21,7 +21,6 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   image: {
     borderRadius: "50%",
-    marginBottom: "10px",
   },
   question: {
     fontWeight: "bold",

@@ -1,7 +1,7 @@
 export interface ServiceHour {
   id: number;
-  date: string;
-  day: string;
+  date: string | null;
+  day: string | null;
   openingTime: string;
   closingTime: string;
   shortMessage: string;

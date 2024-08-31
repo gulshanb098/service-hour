@@ -46,6 +46,8 @@ const HoursSection: React.FC = () => {
 
       {regularHours.length > 0 && (
         <p style={styles.regularHours}>
+          Regular Days
+          <br />
           {regularHours.map((e) => e.day).join(", ")}
           <br />
           {convertTo12HourFormat(regularHours[0].openingTime)} -
@@ -62,6 +64,8 @@ const HoursSection: React.FC = () => {
       )}
       {weekendHours.length > 0 && (
         <p style={styles.regularHours}>
+          Weekend
+          <br />
           {weekendHours.map((e) => e.day).join(", ")}
           <br />
           {convertTo12HourFormat(weekendHours[0].openingTime)} -
